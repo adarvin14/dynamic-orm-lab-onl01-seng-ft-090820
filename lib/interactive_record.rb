@@ -11,6 +11,8 @@ class InteractiveRecord
     DB[:conn].results_as_hash = true
     
   end
+  
+  
     
   
 end
