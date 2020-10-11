@@ -12,7 +12,9 @@ class InteractiveRecord
     
   end
   
-  def intitialize
+  def intitialize(options={})
+    options.each do |property, value|
+      self.send("#{property}=", value)
   end
   
   def save
