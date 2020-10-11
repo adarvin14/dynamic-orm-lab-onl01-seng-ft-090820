@@ -23,7 +23,17 @@ class InteractiveRecord
     
   end
   
-  def self.find_by
+  def table_name_for_insert
+    
+  end
+  
+  def col_names_for_insert
+    
+  end
+  
+  def values_for_insert
+    
+  end
     
   
 end
